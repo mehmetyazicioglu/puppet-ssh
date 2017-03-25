@@ -9,4 +9,5 @@
 # Learn more about module testing here:
 # https://docs.puppet.com/guides/tests_smoke.html
 #
-include ::ssh
+include ssh::install
+include ssh::service
